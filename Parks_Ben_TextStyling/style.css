@@ -1,0 +1,24 @@
+h1{
+    background-color: black;
+    background-size: contain;
+    color: white;
+    text-align: left;
+    font-size: 60px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif 
+}
+
+h2{
+    background-color: purple;
+    background-size: contain;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+h3{
+    background-color: lightblue;
+    color:black;
+    text-align: right;
+    text-decoration: underline;
+}

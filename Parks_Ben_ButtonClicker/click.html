@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="click.js"></script>
+    <title>Button Clicker</title>
+</head>
+<body>
+    <div class = "container">
+        <div class = "dojo">
+            <h1>Dojonary</h1>
+            <div class = "search">
+                <form action="#">
+                    <input type="text"
+                        placeholder=" Search"
+                        name="search">
+                </form>
+            </div>
+            <div><button class = "btn" onclick="turnoff(this)">Login</button></div>
+        </div>
+        <div class = "ninja">
+            <p><h2>ninja</h2></p>
+            <div class = "definition">
+                <p>noun</p>
+                <p>Plural: <emphasis>ninjas</emphasis></p>
+                <p><button class = "like" onclick = "alert('Ninja was liked')">likes</button></p>
+            </div>
+            <div>
+                <p class = "right">A practictioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+            </div>
+        </div>
+        <div class = "dojonary">
+            <h2>Dojonary is defined by YOU</h2>
+            <p><button class = "add" onclick="hide(this)">Add Definition</button></p>
+        </div>
+        <div class = "noun">
+            <h2>ninja</h2>
+            <div class = "definition">
+                <p>noun</p>
+                <p>Plural: <emphasis>ninjas</emphasis></p>
+                <p><button class = "like" onclick = "alert('Ninja was liked')">likes</button></p>
+            </div>
+            <div>
+                <p class = "right">A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

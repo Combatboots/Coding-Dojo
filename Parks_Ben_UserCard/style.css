@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    height: 300px;
+    width: 500px;
+    border: 2px solid black;  
+}
+
+#topbar{
+    height: 80px;
+    width: 498px;
+    background-color: teal;
+}
+
+.profile{
+    height: 168px;
+    margin-left: 20px;
+    margin-top: 45px;
+}
+
+.user{
+    height: 90px;
+    padding: 30px 0px 5px 15px;
+}
+
+.gear, .map{
+    height: 20px;
+}
+
+link{
+    font-style: italic;
+}
+
+div{
+    padding: 3px;
+}

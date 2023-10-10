@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    text-align: center;
+    border: 3px solid black;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+.network{
+    background-color: black;
+    color: white;
+    text-align: left;
+}
+
+.feed{
+    font-size: 20px;
+}
+
+.ben{
+    font-size: 20px;;
+}
+
+div{
+    padding:5px;
+}
+
+.boxes{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.left{
+    display: flex;
+    align-items: flex-start;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.profile{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    height: 170px;
+}
+
+.Neil, .Nichole, .Jim{
+    border: 2px solid black;
+    height: 100px;
+    width: 400px;
+    margin: 10px;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.user{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.btn{
+    height: 20px;
+    width: 50px;
+    font-weight: bold;
+    justify-self: center;
+    background-color: yellow;
+    box-shadow: 3px 3px 3px black;
+}
+
+img{
+    height: 60px;
+}

@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.row{
+    margin: 20px;
+    height: 40px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.col, .col-2, .col-3{
+    border: 2px solid black;
+    background-color: teal;
+    margin-right: 10px;
+}
+
+.col{
+    flex:1;
+}
+
+.col-2{
+    flex: 2;
+}
+
+.col-3{
+    flex:3;
+}

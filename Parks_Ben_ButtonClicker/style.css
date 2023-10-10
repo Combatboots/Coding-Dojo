@@ -1,0 +1,69 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    margin-left: 30%;
+    margin-right: 30%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dojo{
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    background-color: gray;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn, .search{
+    padding-top: 8px;
+}
+
+.btn{
+    background-color: blue;
+    color: white;
+    margin-top: 4px;
+    width: 60px;
+    text-align: center;
+    box-shadow: 1px 1px 4px 1px black;
+}
+
+.ninja, .noun{
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid black;
+    width: 348px;
+    height: 140px;
+}
+
+.dojonary{
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid black;
+    width: 200px;
+    height: 115px;
+}
+
+.add{
+    margin-top: 10px;
+    text-align: center;
+    background-color: green;
+    color: white;
+    height: 25px;
+    width: 150px;
+    font-size: 15px;
+}
+
+.definition{
+    padding: 10px;
+    text-align: left;
+}
+
+emphasis{
+    font-style: italic;
+}
